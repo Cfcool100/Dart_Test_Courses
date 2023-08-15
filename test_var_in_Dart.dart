@@ -7,8 +7,8 @@ main(){
 
 
   // id card
-  var lastName = "SISSOKO";
-  var firstName = "Youssouf";
+  const lastName = "SISSOKO";
+  const firstName = "Youssouf";
   double size = 1.67;
   int age = 25;
   String profession = "FullStack Developer";
