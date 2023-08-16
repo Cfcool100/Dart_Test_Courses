@@ -68,13 +68,28 @@ void main() {
 }
 */
 
+// Switch statement 
 
+import 'dart:io';
 
+void main() {   
+  print('''What's your sexual orientation?
+Gay? Hetero? Lesbian? Or  Bisexual?''');
 
-// void main() {   
-//    var names = ["Peter", "Rinky Ponting", "Abhishek"];   
-     
-//    for (var name in names) {   
-//       print(name);   
-//    }   
-// }  
+  String? preference = stdin.readLineSync();
+  
+  switch(preference) {
+    case 'hetero':
+      print("It's good");
+      break;
+    case 'gay':
+      print('Why are you gay?');
+      break;
+    case 'bisexual':
+      print('Why? Just why are you gay?');
+      break;
+    case 'lesbian':
+      print("You're strange!");
+      break; 
+  }
+}
