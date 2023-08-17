@@ -91,5 +91,7 @@ Gay? Hetero? Lesbian? Or  Bisexual?''');
     case 'lesbian':
       print("You're strange!");
       break; 
+    default:
+      print("what's you said? I don't know what you mean!");
   }
 }
